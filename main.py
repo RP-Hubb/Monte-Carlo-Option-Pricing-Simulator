@@ -7,7 +7,7 @@ from utils import simulate_gbm_paths, monte_carlo_option_price, black_scholes_pr
 # Set matplotlib dark theme
 def set_dark_theme():
     plt.style.use('dark_background')
-    plt.rcParams['axes.labelcolor'] = 'white'
+    plt.rcParams['axes.labelcolor'] = 'black'
     plt.rcParams['xtick.color'] = 'white'
     plt.rcParams['ytick.color'] = 'white'
     plt.rcParams['axes.edgecolor'] = 'white'
